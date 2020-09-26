@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-teste
+  description: go teste
+  annotations: 
+    github.com/project-slug: jdanielnd/teste-go
+    backstage.io/github-actions-id: jdanielnd/teste-go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jdanielnd
